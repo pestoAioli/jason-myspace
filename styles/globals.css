@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: verdana,arial,sans-serif,helvetica;
+  font-size: 8pt;
+  color: white;
+  background-color: #E5E5E5;
 }
 
 a {
@@ -15,12 +17,25 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+
+
+li:not(:last-child)::after {
+    content: "| ";
+    color: black;
+    margin-right: 4px;
+    margin-left: 4px;
 }
+
+li {
+    display: inline-block;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+ul{
+  margin: 0;
+}
+
+
