@@ -57,7 +57,7 @@ export default function Home() {
                 <p>Last login: 6/6/666</p>
               </div>
             </div>
-            <div display>
+            <div>
               <table style={{ border: '1px solid #6698cc', width: '300px', marginTop: '12px' }}>
                 <tbody style={{}} >
                   <tr>

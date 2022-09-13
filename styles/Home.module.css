@@ -1,5 +1,4 @@
 .container {
-
   width: 810px;
   max-width: 100%;
   margin: 0 auto 10px;
@@ -142,22 +141,10 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+@media screen and (max-device-width: 800px) {
+  .main{
     flex-direction: column;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
+
