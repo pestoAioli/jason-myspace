@@ -145,6 +145,9 @@
   .main{
     flex-direction: column;
   }
+  .right{
+    margin-left: 10px;
+  }
 }
 
 
