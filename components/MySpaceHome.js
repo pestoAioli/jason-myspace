@@ -7,7 +7,7 @@ export default function MySpaceHome() {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <h2>Jason Holtz</h2>
+        <h1>Jason Holtz</h1>
         <div style={{ display: 'flex' }}>
           <Image
             src="/Wallace_and_gromit.jpeg"
@@ -184,12 +184,13 @@ export default function MySpaceHome() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           <div>
             Tom
-            <Image
-              src="/myspaceTom.jpeg"
-              alt="portrait of the young artist"
-              width={180}
-              height={198}
-            />
+            <a href='/works/1' >
+              <Image
+                src="/myspaceTom.jpeg"
+                alt="portrait of the young artist"
+                width={180}
+                height={198}
+              /></a>
           </div>
         </div>
         <h3 style={{ backgroundColor: '#FFCC99', width: '410px', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '12px', }}>Jason's Friend's Top Comments</h3>

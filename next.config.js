@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['web.archive.org']
+    domains: ['web.archive.org', 'thumbs.dreamstime.com']
   }
 }
 
