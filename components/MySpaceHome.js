@@ -158,7 +158,7 @@ export default function MySpaceHome() {
         </div>
         <div style={{ marginTop: '8px', border: '2px solid black' }}>
           <ThreeStyle />
-          <p style={{ textAlign: 'center' }}>Call 1-800-532-8769 for a free trial today!!</p>
+          <p style={{ textAlign: 'center' }}>Tired of being Confused? Purchase your very own Multi-Dimensional Particle Alignment Device today for only 4 payments of 34.99!</p>
         </div>
       </div>
       <div className={styles.right}>
