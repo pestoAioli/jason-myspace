@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image';
 import ThreeStyle from '../components/ThreeStyle.js'
+import Link from 'next/link';
 
 export default function MySpaceHome() {
 
@@ -184,13 +185,15 @@ export default function MySpaceHome() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           <div>
             Tom
-            <a href='/works/1' >
-              <Image
-                src="/myspaceTom.jpeg"
-                alt="portrait of the young artist"
-                width={180}
-                height={198}
-              /></a>
+            <Link href="/works/1">
+              <a>
+                <Image
+                  src="/myspaceTom.jpeg"
+                  alt="portrait of the young artist"
+                  width={180}
+                  height={198}
+                /></a>
+            </Link>
           </div>
         </div>
         <h3 style={{ backgroundColor: '#FFCC99', width: '410px', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '12px', }}>Jason's Friend's Top Comments</h3>

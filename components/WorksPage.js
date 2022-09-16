@@ -1,10 +1,13 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function WorksPage() {
   return (
     <div className={styles.worksPic}>
-      <a href='/' style={{ color: 'blue', marginBottom: '2.5rem', alignSelf: 'start', marginLeft: '2.5rem' }}>Back to Home Page</a>
+      <Link href="/">
+        <a style={{ color: 'blue', marginBottom: '2.5rem', alignSelf: 'start', marginLeft: '2.5rem' }}>Back to Home Page</a>
+      </Link>
       <Image
         src="https://thumbs.dreamstime.com/b/leafy-sea-dragon-close-up-30185536.jpg"
         alt="portrait of the young artist"
