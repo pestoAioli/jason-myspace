@@ -141,10 +141,10 @@ export default function MySpaceHome() {
             </tbody>
           </table>
         </div>
-        <div style={{ border: '1px solid black', marginTop: 24, marginBottom: 24, width: '300px', textAlign: 'center' }}><p><strong>Instagram:</strong> <a href='https://instagram.com/jason_holtz' style={{ color: 'blue' }}>@jason_holtz</a>  </p> </div>
+        <div style={{ border: '1px solid black', marginTop: 24, marginBottom: 24, width: '300px', textAlign: 'center' }}><p className={styles.insta}><strong>Instagram:</strong> <a href='https://instagram.com/jason_holtz' style={{ color: 'blue' }}>@jason_holtz</a>  </p> </div>
         <div>
-          <div style={{ border: '1px solid #6699cc' }}>
-            <h3 style={{ backgroundColor: '#6699cc', width: '300px', color: 'white', textAlign: 'center', margin: 0 }}>Jason's Interests</h3>
+          <div style={{ border: '1px solid #6699cc', width: '300px' }}>
+            <h3 style={{ backgroundColor: '#6699cc', color: 'white', textAlign: 'center', margin: 0 }}>Jason's Interests</h3>
             <div style={{ display: 'flex' }}>
               <div>
                 <p style={{ margin: 2, padding: '0px 50px 10px 0px', backgroundColor: '#B1D0F0', color: '#336699' }}><strong>General:</strong></p>
@@ -152,14 +152,14 @@ export default function MySpaceHome() {
                 <p style={{ margin: 2, padding: '0px 50px 12px 0px', backgroundColor: '#B1D0F0', color: '#336699' }}><strong>Books:</strong></p>
               </div>
               <div>
-                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0', width: '190px' }}>Observing life</p>
-                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0', width: '190px' }}>Everything & Country</p>
-                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0', width: '190px' }}>Le Guin</p>
+                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0', width: '186px' }}>Observing life</p>
+                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0' }}>Everything & Country</p>
+                <p style={{ margin: 2, padding: '1px 1px 10px 0px', backgroundColor: '#B1D0F0' }}>Le Guin</p>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.tres} style={{ marginTop: '8px', border: '2px solid black' }}>
+        <div className={styles.tres} style={{ marginTop: '8px', border: '2px solid black', width: '300px' }}>
           <ThreeStyle />
           <p style={{ textAlign: 'center' }}>Tired of being Confused? Purchase your very own Multi-Dimensional Particle Alignment Device today for only 4 payments of 34.99!</p>
         </div>
@@ -176,13 +176,13 @@ export default function MySpaceHome() {
           <a href='' style={{ color: 'blue' }}>[view all blog posts]</a>
         </div>
         <div>
-          <h3 style={{ backgroundColor: '#FFCC99', width: '410px', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '6px', }}>Jason's blurbs</h3>
+          <h3 style={{ backgroundColor: '#FFCC99', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '6px', }}>Jason's blurbs</h3>
         </div>
         <div>
           <h3 style={{ color: '#FF6600' }}> About: </h3>
           <p>Visual artist working to explore the complexities and simplicities of life, through a variety of mediums and styles.</p>
         </div>
-        <h3 style={{ backgroundColor: '#FFCC99', width: '410px', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '6px', }}>Jason's Friend Space</h3>
+        <h3 style={{ backgroundColor: '#FFCC99', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '6px', }}>Jason's Friend Space</h3>
         <h3>Jason has <span style={{ color: 'red' }}>1</span> friend</h3>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           <div>
@@ -198,7 +198,7 @@ export default function MySpaceHome() {
             </Link>
           </div>
         </div>
-        <h3 style={{ backgroundColor: '#FFCC99', width: '410px', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '12px', }}>Jason's Friend's Top Comments</h3>
+        <h3 style={{ backgroundColor: '#FFCC99', color: '#FF6600', textAlign: 'center', margin: '0px', marginTop: '12px', }}>Jason's Friend's Top Comments</h3>
         <h3 style={{ fontSize: 'small' }}>Displaying <span style={{ color: 'red' }}>1</span> of <span style={{ color: 'red' }}> 69 </span>comments</h3>
         <div style={{ display: 'flex' }}>
           <div style={{ margin: 2, padding: ' 10px 20px', backgroundColor: '#FF9933', color: '#336699', textIndent: 80 }}>
