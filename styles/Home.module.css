@@ -46,6 +46,7 @@
 .right{
   display: flex;
   margin-left: 20px;
+  margin-top: 20px;
   flex-direction: column;
   padding: 20px;
   width: 570px;
@@ -154,6 +155,18 @@
   }
   .right{
     margin-left: 10px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    width: 100%;
+  }
+ 
+  .tres{
+    display: none;
   }
 }
 

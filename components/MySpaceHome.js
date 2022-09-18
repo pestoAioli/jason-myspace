@@ -8,28 +8,30 @@ export default function MySpaceHome() {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <h1>Jason Holtz</h1>
-        <div style={{ display: 'flex' }}>
-          <Image
-            src="/Wallace_and_gromit.jpeg"
-            alt="portrait of the young artist"
-            width={180}
-            height={98}
-          />
-          <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '20px' }}>
-            <p> "<strong>It is 100 seconds to midnight</strong>"</p>
-            <p>
-              He/Him <br />
-              28 years old <br />
-              Petaluma, <br />
-              California <br />
-              Earth
-            </p>
-            <p>Last login: 4/20/2008</p>
+        <div>
+          <h1>Jason Holtz</h1>
+          <div style={{ display: 'flex' }}>
+            <Image
+              src="/jason-profile-pic.jpeg"
+              alt="portrait of the young artist"
+              width={240}
+              height={320}
+            />
+            <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '20px' }}>
+              <p> "<strong>It is 100 seconds to midnight</strong>"</p>
+              <p>
+                He/Him <br />
+                28 years old <br />
+                Petaluma, <br />
+                California <br />
+                Earth
+              </p>
+              <p>Last login: 4/20/2008</p>
+            </div>
           </div>
         </div>
         <div>
-          <table style={{ border: '1px solid #6698cc', width: '300px', marginTop: '12px' }}>
+          <table className={styles.tablez} style={{ border: '1px solid #6698cc', width: '300px', marginTop: '12px' }}>
             <tbody style={{}} >
               <tr>
                 <td style={{ height: '15px', backgroundColor: '#6699cc', padding: '2px', }}>
@@ -141,7 +143,7 @@ export default function MySpaceHome() {
         </div>
         <div style={{ border: '1px solid black', marginTop: 24, marginBottom: 24, width: '300px', textAlign: 'center' }}><p><strong>Instagram:</strong> <a href='https://instagram.com/jason_holtz' style={{ color: 'blue' }}>@jason_holtz</a>  </p> </div>
         <div>
-          <div>
+          <div style={{ border: '1px solid #6699cc' }}>
             <h3 style={{ backgroundColor: '#6699cc', width: '300px', color: 'white', textAlign: 'center', margin: 0 }}>Jason's Interests</h3>
             <div style={{ display: 'flex' }}>
               <div>
@@ -157,7 +159,7 @@ export default function MySpaceHome() {
             </div>
           </div>
         </div>
-        <div style={{ marginTop: '8px', border: '2px solid black' }}>
+        <div className={styles.tres} style={{ marginTop: '8px', border: '2px solid black' }}>
           <ThreeStyle />
           <p style={{ textAlign: 'center' }}>Tired of being Confused? Purchase your very own Multi-Dimensional Particle Alignment Device today for only 4 payments of 34.99!</p>
         </div>
